@@ -3,12 +3,11 @@
 A simple command-line task manager built in Java. Tasks are saved locally so they persist between runs.
 
 ## Features
-- Add tasks
-- List tasks (`[ ]` / `[x]`)
-- Mark tasks as done
-- Delete tasks
-- Clear completed tasks
+- Add tasks with priority (LOW/MED/HIGH) and optional due date
+- List tasks sorted by status, due date, and priority
+- Mark tasks as done, delete tasks, and clear completed tasks
 - Save/load tasks from a local file (`tasks.txt`)
+
 
 ## Project structure
 - `src/Main.java` — main program
